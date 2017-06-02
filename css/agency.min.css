@@ -4,6 +4,11 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+ /*!
+ Green: #43c96b
+ Hover green: #53FA85
+ */
+
 .btn-primary.active,
 .btn-primary:active,
 .btn-xl.active,
@@ -15,7 +20,7 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    webkit-tap-highlight-color: #fed136
+    webkit-tap-highlight-color: #43c96b
 }
 .btn-primary,
 .btn-xl,
@@ -34,7 +39,7 @@ h6 {
 }
 .text-primary,
 a {
-    color: #fed136
+    color: #43c96b
 }
 p {
     font-size: 14px;
@@ -54,7 +59,7 @@ a.active,
 a:active,
 a:focus,
 a:hover {
-    color: #fec503
+    color: #53FA85
 }
 .img-centered {
     margin: 0 auto
@@ -67,8 +72,8 @@ a:hover {
 }
 .btn-primary {
     color: #fff;
-    background-color: #fed136;
-    border-color: #fed136
+    background-color: #43c96b;
+    border-color: #43c96b
 }
 .btn-primary.active,
 .btn-primary:active,
@@ -76,8 +81,8 @@ a:hover {
 .btn-primary:hover,
 .open .dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #fec503;
-    border-color: #f6bf01
+    background-color: #53FA85;
+    border-color: #53FA85
 }
 .btn-primary.disabled,
 .btn-primary.disabled.active,
@@ -94,17 +99,17 @@ fieldset[disabled] .btn-primary.active,
 fieldset[disabled] .btn-primary:active,
 fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary:hover {
-    background-color: #fed136;
-    border-color: #fed136
+    background-color: #53FA85;
+    border-color: #53FA85
 }
 .btn-primary .badge {
-    color: #fed136;
+    color: #43c96b;
     background-color: #fff
 }
 .btn-xl {
     color: #fff;
-    background-color: #fed136;
-    border-color: #fed136;
+    background-color: #43c96b;
+    border-color: #43c96b;
     border-radius: 3px;
     font-size: 18px;
     padding: 20px 40px
@@ -115,8 +120,8 @@ fieldset[disabled] .btn-primary:hover {
 .btn-xl:hover,
 .open .dropdown-toggle.btn-xl {
     color: #fff;
-    background-color: #fec503;
-    border-color: #f6bf01
+    background-color: #53FA85;
+    border-color: #53FA85
 }
 .btn-xl.disabled,
 .btn-xl.disabled.active,
@@ -133,11 +138,11 @@ fieldset[disabled] .btn-xl.active,
 fieldset[disabled] .btn-xl:active,
 fieldset[disabled] .btn-xl:focus,
 fieldset[disabled] .btn-xl:hover {
-    background-color: #fed136;
-    border-color: #fed136
+    background-color: #53FA85;
+    border-color: #53FA85
 }
 .btn-xl .badge {
-    color: #fed136;
+    color: #43c96b;
     background-color: #fff
 }
 .navbar-custom {
@@ -145,14 +150,14 @@ fieldset[disabled] .btn-xl:hover {
     border-color: transparent
 }
 .navbar-custom .navbar-brand {
-    color: #fed136;
+    color: #43c96b;
     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive
 }
 .navbar-custom .navbar-brand.active,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:hover {
-    color: #fec503
+    color: #53FA85
 }
 .navbar-custom .nav li a,
 .navbar-custom .navbar-toggle {
@@ -164,13 +169,13 @@ fieldset[disabled] .btn-xl:hover {
     border-color: rgba(255, 255, 255, .02)
 }
 .navbar-custom .navbar-toggle {
-    background-color: #fed136;
-    border-color: #fed136;
+    background-color: #43c96b;
+    border-color: #43c96b;
     font-size: 12px
 }
 .navbar-custom .navbar-toggle:focus,
 .navbar-custom .navbar-toggle:hover {
-    background-color: #fed136
+    background-color: #43c96b
 }
 .navbar-custom .nav li a {
     font-weight: 400;
@@ -178,18 +183,18 @@ fieldset[disabled] .btn-xl:hover {
 }
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:hover {
-    color: #fed136;
+    color: #53FA85;
     outline: 0
 }
 .navbar-custom .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136
+    background-color: #43c96b
 }
 .navbar-custom .navbar-nav>.active>a:focus,
 .navbar-custom .navbar-nav>.active>a:hover {
     color: #fff;
-    background-color: #fec503
+    background-color: #53FA85
 }
 @media (min-width: 768px) {
     .navbar-custom {
@@ -308,7 +313,7 @@ section h3.section-subheading {
     margin: 0 auto
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-    background: rgba(254, 209, 54, .9);
+    background: rgba(107, 212, 138, .9);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -418,7 +423,7 @@ footer ul.quicklinks {
     height: 80px;
     position: absolute;
     z-index: 100;
-    background-color: #fed136;
+    background-color: #43c96b;
     color: #fff;
     border-radius: 100%;
     border: 7px solid #f1f1f1;
@@ -571,7 +576,7 @@ section#contact .form-group textarea.form-control {
     height: 236px
 }
 section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #43c96b;
     box-shadow: none
 }
 section#contact::-webkit-input-placeholder {
@@ -636,7 +641,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-    background-color: #fed136
+    background-color: #43c96b
 }
 .btn.active,
 .btn:active,
@@ -716,11 +721,11 @@ ul.social-buttons li a:hover {
 }
 ::-moz-selection {
     text-shadow: none;
-    background: #fed136
+    background: #53FA85
 }
 ::selection {
     text-shadow: none;
-    background: #fed136
+    background: #53FA85
 }
 img::selection {
     background: 0 0
